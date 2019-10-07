@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:shrinkColumns="0">
+    <TableRow>
+        <TextView
+            android:text="cellule 00 de depart, est la une deuxieme ligne"
+            android:textSize="15dp"
+            android:padding="3dip"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="cellule 01"
+            android:textSize="15dp"
+            android:padding="3dip"
+            android:gravity="center"
+            />
+        <TextView
+            android:text="cellule 02"
+            android:textSize="15dp"
+            android:padding="3dip"
+            android:gravity="center"
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="cellule 10"
+            android:textSize="15dp" />
+        <TextView
+            android:text="cellule 11"
+            android:textSize="15dp"
+            android:padding="3dip"
+            android:gravity="center"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+
+       <Button
+           android:id="@+id/but1"
+           android:text="ok"
+           android:layout_weight="1"/>
+        <Button
+            android:id="@+id/but2"
+            android:layout_weight="4"
+            android:text="annler"/>
+    </TableRow>
+
+</TableLayout>
